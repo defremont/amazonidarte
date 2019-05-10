@@ -5,7 +5,7 @@ $(document).ready(function() {
 	$("#gform").on("submit", function(e) {
 		$("#gform *").fadeOut(2000);
 		$("#cttOut *").fadeOut(2000);
-		$("#cttOut2 *").fadeOut(2000);
+		$("#cttOut2 *").html("");
 		$('#cttOut').hide().html("Obrigada! Mensagem enviada!").fadeIn('slow');
 		});
 
