@@ -5,10 +5,8 @@ $(document).ready(function() {
 	$("#gform").on("submit", function(e) {
 		$("#gform *").fadeOut(2000);
 		$("#cttOut *").fadeOut(2000);
-		$("#cttIn *").fadeIn(2000);
-		 $("#gform").prepend(function myFunction() {			 
-		  alert("Mensagem enviada!");
-	  });
+		$("#cttOut2 *").fadeOut(2000);
+		$('#cttOut').hide().html("Obrigada! Mensagem enviada!").fadeIn('slow');
 		});
 
 	$("#contactForm").validator().on("submit", function (event) {
