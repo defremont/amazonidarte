@@ -27,6 +27,14 @@
 	<link rel="stylesheet" href="style.css">
 	<!-- include the site stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
+	<script type="text/javascript">
+		$('#gform').on('submit', function(e) {
+		  $('#gform *').fadeOut(2000);
+		   $('#gform').prepend(function myFunction() {
+			alert("Message sent! I will contact you as soon as possible! Thank you very much! :)");
+		});
+		  });
+		</script>
 </head>
 <body>
 	<div id="wrapper">
