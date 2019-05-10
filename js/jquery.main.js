@@ -16,6 +16,12 @@ $(document).ready(function() {
 		}
 	});
 
+	$('#gform').on('submit', function(e) {
+		$('#gform *').fadeOut(2000);
+		 $('#gform').prepend(function myFunction() {
+		  alert("Message sent! I will contact you as soon as possible! Thank you very much! :)");
+	  });
+		});
 	function submitForm(){
 		"use strict";
 
