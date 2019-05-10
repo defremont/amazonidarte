@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+	<script type="text/javascript">
+		$('#gform').on('submit', function(e) {
+		  $('#gform *').fadeOut(2000);
+		   $('#gform').prepend(function myFunction() {
+			alert("Message sent! I will contact you as soon as possible! Thank you very much! :)");
+		});
+		  });
+		</script>
 	<!-- set the encoding of your site -->
 	<meta charset="utf-8">
 	<!-- set the viewport width and initial-scale on mobile devices -->
@@ -154,14 +162,6 @@
 		<!-- Back Top of the page -->
 	    <span id="back-top" class="fa fa-angle-up main-bg-color"></span>
 	</div>
-	<script type="text/javascript">
-		$('#gform').on('submit', function(e) {
-		  $('#gform *').fadeOut(2000);
-		   $('#gform').prepend(function myFunction() {
-			alert("Message sent! I will contact you as soon as possible! Thank you very much! :)");
-		});
-		  });
-		</script>
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.js" defer></script>
 	<script src="js/jquery.main.js" defer></script>
