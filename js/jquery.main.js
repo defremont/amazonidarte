@@ -4,10 +4,10 @@ $(document).ready(function() {
 
 	$("#gform").on("submit", function(e) {
 		$("#gform *").fadeOut(2000);
-		 $("#gform").prepend(function myFunction() {
-			 console.log("gform JS");
-			 
-		  alert("Message sent! I will contact you as soon as possible! Thank you very much! :)");
+		$("#cttOut *").fadeOut(2000);
+		$("#cttIn *").fadeIn(2000);
+		 $("#gform").prepend(function myFunction() {			 
+		  alert("Mensagem enviada!");
 	  });
 		});
 
