@@ -45,6 +45,79 @@ Theme URI:
 	1. import files
 -------------------------------------------------------------------*/
 
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,700);
+
+
+.post {
+	font-size: 15px !important;
+	line-height: 20px !important;
+	max-width: 100%;
+	min-height: 350px;
+  text-decoration: none;
+  text-align: center;
+  transition: color 0.25s ease;
+  border-radius: 0.3em;
+  border: 1px solid gainsboro;
+  float: left;
+  color: #a5a5a5;
+  box-shadow: 0 2px 4px #e6e6e6;
+  background: #f6f6f6;
+  display: inline-block;
+  margin: 0 2px 15px;
+  column-break-inside: avoid;
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+.post:hover {
+  color: #619670;
+  border-color: #a5a5a5;
+}
+.post img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 3px;
+}
+.post .innerText{
+margin: 10px;
+}
+#wrapper2 {
+  width: 95%;
+  max-width: 1400px;
+  min-width: 400px;
+  margin: 50px auto;
+}
+#instafeed {
+  column-count: 3;
+  column-gap: 15px;
+  column-fill: auto;
+}
+.post p {
+  font: 16px Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+@media (max-width: 480px) {
+  #instafeed {
+    column-count: 1;
+  }
+}
+@media (max-width: 780px) {
+  #instafeed {
+    column-count: 2;
+  }
+}
+@media (min-width: 960px) {
+  #instafeed {
+    column-count: 4;
+  }
+}
+@media (min-width: 1100px) {
+  #instafeed {
+    column-count: 5;
+  }
+}
+
+
 .clearfix:after,
 .widget:after,
 .search-form:after,
