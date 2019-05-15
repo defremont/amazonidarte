@@ -48,7 +48,7 @@ Theme URI:
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,700);
 
 
-.post {
+.post2 {
 	font-size: 15px !important;
 	line-height: 20px !important;
 	max-width: 100%;
@@ -68,16 +68,16 @@ Theme URI:
   opacity: 1;
   transition: all 0.2s ease;
 }
-.post:hover {
+.post2:hover {
   color: #619670;
   border-color: #a5a5a5;
 }
-.post img {
+.post2 img {
   width: 100%;
   max-width: 100%;
   border-radius: 3px;
 }
-.post .innerText{
+.post2 .innerText{
 margin: 10px;
 }
 #wrapper2 {
@@ -91,7 +91,7 @@ margin: 10px;
   column-gap: 15px;
   column-fill: auto;
 }
-.post p {
+.post2 p {
   font: 16px Arial, sans-serif;
   color: #333;
   margin: 0;
