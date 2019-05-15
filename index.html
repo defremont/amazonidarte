@@ -111,10 +111,7 @@
 					  var accessToken = '5992881690.5f6d11e.3c1a633ac05e4a28b3f6907459359355'; // use your own token
 					  $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token='+accessToken+'&callback=?',function (insta) {
 						  
-							console.log(insta.data);
 						$.each(insta.data,function (photos,src) {
-							console.log(photos);
-							console.log(src);
 						  if ( photos === 20 ) { return false; }
 						  $('<a class="post" href="' 
 						  + this.link +
