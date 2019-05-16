@@ -83,7 +83,7 @@ margin: 10px;
 #wrapper2 {
   width: 95%;
   max-width: 1400px;
-  min-width: 400px;
+  min-width: 100%;
   margin: 50px auto;
 }
 #instafeed {
@@ -96,14 +96,24 @@ margin: 10px;
   color: #333;
   margin: 0;
 }
-@media (max-width: 480px) {
+@media (min-width: 320px) {
   #instafeed {
     column-count: 1;
   }
 }
-@media (max-width: 780px) {
+@media (max-width: 320px) {
+  #instafeed {
+    column-count: 1;
+  }
+}
+@media (min-width: 480px) {
   #instafeed {
     column-count: 2;
+  }
+}
+@media (min-width: 780px) {
+  #instafeed {
+    column-count: 3;
   }
 }
 @media (min-width: 960px) {
